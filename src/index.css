@@ -26,6 +26,11 @@
 
 }
 
+::selection {
+  background-color: #fe77d0; 
+  color: #000000;
+}
+
 body {
   font-family: 'Space Mono';
   font-weight: 400;
@@ -45,7 +50,7 @@ body {
   display: flex;
   flex-direction: column; 
   align-items: center;    
-  justify-content: center;
-  padding-top: 3rem; 
+  justify-content: flex-start;
+  margin-top: 5rem; 
   box-sizing: border-box; 
 }

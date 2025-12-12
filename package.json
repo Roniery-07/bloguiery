@@ -4,6 +4,7 @@
   "type": "module",
   "workspaces": [
     "./backend/",
-    "./frontend/"
+    "./frontend/",
+    "./shared/"
   ]
 }

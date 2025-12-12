@@ -1,0 +1,1 @@
+export {PostSchema, type PostDto} from './PostDto'

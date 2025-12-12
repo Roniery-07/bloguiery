@@ -154,16 +154,12 @@ body {
 
 @media (max-width: 1000px) {
   .page {
-    /* Opcional: Garante que a página não tenha scroll horizontal fantasma */
     overflow-x: hidden;
   }
 
   .content {
-    /* MUDANÇA 3: Padding seguro */
-    padding: 0 1.5rem; /* 0 em cima/baixo, 1.5rem nas laterais */
+    padding: 0 1.5rem;
     
-    /* MUDANÇA 4: Removemos o overflow-x: hidden daqui */
-    /* Se algo vazar, queremos ver (scroll) ou quebrar (wrap), não cortar */
     width: 100%;
   }
 }

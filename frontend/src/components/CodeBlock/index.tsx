@@ -19,7 +19,7 @@ export const CodeBlock = ({ className, children, ...props }: any) => {
   if (!match) {
     return (
       <code
-        className={`${className || ''} text-red-500 rounded px-1 italic`}
+        className={`${className || ''} text-pink-500 rounded px-1 italic bg-stone-800`}
         {...props}
       >
         {children}
